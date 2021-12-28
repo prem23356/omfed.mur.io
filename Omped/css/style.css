@@ -1,0 +1,40 @@
+body{
+	margin: 7px;
+	padding: 7px;
+	font-family: arial
+}
+header{
+	font-size: 25px;
+}
+header ul{
+	float: right;
+			list-style: none;
+			padding: 5px
+			background-color: white;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+      	text-decoration: none;
+      	color: black;
+      	padding: 3px 5px;
+      	font-size: 16px;
+      	transition: 0.6s ease;
+}
+header ul li:hover{
+	background-color: orange;
+	animation-fill-mode: forwards;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: fixed;
+}
+.title h1{
+	color: white;
+	font-size: 80px;
+	font-family: Century Gothic;
+}
